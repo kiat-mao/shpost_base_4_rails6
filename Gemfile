@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://gems.ruby-china.com/'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
@@ -83,3 +83,12 @@ gem 'bootstrap3-datetimepicker-rails', '~> 4.17.47'
 # Use Uglifier as compressor for JavaScript assets
 # gem 'uglifier', '>= 1.3.0'
 
+gem 'spreadsheet', '~> 1.2', '>= 1.2.6'
+
+gem 'bootstrap-table-rails', '~> 1.13', '>= 1.13.4'
+
+########Oracle##############
+# gem 'ruby-oci8'
+
+# gem "activerecord-oracle_enhanced-adapter"
+############################
