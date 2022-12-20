@@ -61,7 +61,8 @@ gem 'cancancan', '~> 3.1'
 
 gem 'devise', '~> 4.7', '>= 4.7.1'
 
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'twitter-bootstrap-rails', '~> 5.0'
+# gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 #gem 'devise-i18n', '~> 1.9', '>= 1.9.1'
 
 gem "therubyracer"
@@ -86,6 +87,10 @@ gem 'bootstrap3-datetimepicker-rails', '~> 4.17.47'
 gem 'spreadsheet', '~> 1.2', '>= 1.2.6'
 
 gem 'bootstrap-table-rails', '~> 1.13', '>= 1.13.4'
+
+gem 'whenever', '~> 1.0'
+
+# gem 'net-sftp', '~> 2.1.3.rc3'
 
 ########Oracle##############
 # gem 'ruby-oci8'
